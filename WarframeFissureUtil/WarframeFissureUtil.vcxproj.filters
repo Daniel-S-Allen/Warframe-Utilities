@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{fa26acee-d1a9-4fce-9935-10dd81347677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{81e3a54b-bbab-4341-a7b1-b3582c390d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Style">
+      <UniqueIdentifier>{ad618f50-1855-49bf-a2ee-af11220d0ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Style">
+      <UniqueIdentifier>{efffa780-6716-4996-9053-7218bbcc1ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Widgets">
+      <UniqueIdentifier>{63f6d91b-c22e-40e6-9959-0b47de61871c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Widgets">
+      <UniqueIdentifier>{b0af2104-723c-45be-a8f7-be43cb23a9e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="WarframeFissureUtil.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="WarframeFissureUtil.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="WarframeFissureUtil.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="WarframeFissureUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FissureTableModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONReciever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FissureFilterProxyModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fissure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlassStyle.cpp">
+      <Filter>Source Files\UI\Style</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phantomcolor.cpp">
+      <Filter>Source Files\UI\Style</Filter>
+    </ClCompile>
+    <ClCompile Include="src\phantomstyle.cpp">
+      <Filter>Source Files\UI\Style</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shadow.cpp">
+      <Filter>Source Files\UI\Style</Filter>
+    </ClCompile>
+    <ClCompile Include="winDark.cpp">
+      <Filter>Source Files\UI\Style</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qgoodwindow.cpp">
+      <Filter>Source Files\UI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="QIconButton.cpp">
+      <Filter>Source Files\UI\Widgets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fissure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONReciever.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="predefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AcrylicWindow.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phantomcolor.h">
+      <Filter>Header Files\UI\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="src\phantomtweak.h">
+      <Filter>Header Files\UI\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="winDark.h">
+      <Filter>Header Files\UI\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="Notification.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="FissureFilterProxyModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\phantomstyle.h">
+      <Filter>Header Files\UI\Style</Filter>
+    </QtMoc>
+    <QtMoc Include="GlassStyle.h">
+      <Filter>Header Files\UI\Style</Filter>
+    </QtMoc>
+    <QtMoc Include="src\shadow.h">
+      <Filter>Header Files\UI\Style</Filter>
+    </QtMoc>
+    <QtMoc Include="QIconButton.h">
+      <Filter>Header Files\UI\Widgets</Filter>
+    </QtMoc>
+    <QtMoc Include="FissureTableModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="src\qgoodwindow.h">
+      <Filter>Header Files\UI\Widgets</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
